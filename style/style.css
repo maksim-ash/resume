@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__content{
+    padding-left: 80px;
+    margin-top: 100px;
+    width: 70%;
+    padding-bottom: 100px;
+}
+
+
+.about__user{
+    margin-bottom: 40px;
+}
+.user__work{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 0 20px 0;
+}
+.user__name{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    padding: 0 0 25px 0;
+}
+.user__info{
+    max-width: 400px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+
+.projects{
+    margin-bottom: 50px;
+}
+h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    padding-bottom: 10px;
+}
+.projects__ol{}
+.projects__numers{
+    color: #000;
+    font-weight: 700;
+    padding-right: 3px;
+}
+.projects__numb_van{
+    padding-right: 5px;
+}
+.projects__li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959; 
+
+    display: flex;
+}
+.projects__li span{
+    color: #000;
+    font-weight: 700;
+    padding: 0 2px;
+}
+.projects__item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+.projects__item:hover{
+    color: #000;
+    transition: all 0.2s linear;
+}
+
+
+.work{}
+.work__company{
+    padding-bottom: 20px;
+}
+
+.work__company p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    padding-bottom: 7px;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+h4 span{
+    color: #fb6d3a;
+}
+
+.work__company ul{
+    max-width: 510px;
+    padding-left: 15px;
+}
+.work__company ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding: 2px 0;
+}
+
+
+
+.education{
+    margin-top: 40px;
+}
+.education h4{
+    color: #fb6d3a;
+}
+.education h5{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 12px;
+}
+.education p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+
+
+.sidebar{
+    background-color: #1E2939;
+    width: 30%;
+    max-width: 370px;
+}
+.sidebar img{
+    max-width: 100%;
+}
+.sidebar h3{
+    padding-top: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.sidebar__body{
+    padding-left: 40px;
+}
+.contacts p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.contacts p a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a8a8a8; 
+    padding-left: 10px;  
+}
+.contacts p a:hover{
+    text-decoration: underline;
+}
+.sidebar__body ul{
+    padding-left: 15px;
+}
+.sidebar__body ul li{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    list-style: none;
+    position: relative;
+}
+.sidebar__body ul li::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fb6d3a;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-15px,-50%);
+}
+.sidebar__body ul li:hover{
+    text-decoration: underline;
+}
